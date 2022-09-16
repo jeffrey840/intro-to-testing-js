@@ -15,7 +15,6 @@ describe('helloWorld', function() {
 });
 
 // new ////
-
 describe('sayHello', function() {
     it('should be a defined function', function () {
         expect(typeof sayHello).toBe('function');
@@ -52,5 +51,20 @@ describe('isFive', function() {
         expect(isFive("5")).toEqual(true)
     });
 });
+
+//isEven//
+describe('isEven', function() {
+    it('should be a defined function', function() {
+        expect(typeof isEven).toBe('function');
+    });
+    it('should return boolean', function () {
+        expect(typeof isEven()).toBe('boolean');
+    });
+});
+
+
+
+
+
 
 

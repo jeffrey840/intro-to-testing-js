@@ -13,7 +13,11 @@ function isFive(input) {
     return false
 }
 
-
+function isEven(input) {
+    let toNum = parseInt(input)
+if (toNum % 2 == 0) {return true}
+return false
+}
 
 
 
