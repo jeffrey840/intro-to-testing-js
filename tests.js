@@ -40,7 +40,17 @@ describe('sayHello', function() {
     });
 });
 
-
-
+// isFive//
+describe('isFive', function() {
+    it('should be a defined function', function() {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return boolean', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('is five return true when 5 is passed', function() {
+        expect(isFive("5")).toEqual(true)
+    });
+});
 
 
