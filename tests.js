@@ -62,8 +62,19 @@ describe('isEven', function() {
     });
 });
 
+//isVowel//
+describe('isVowel', function() {
+    it('should be a defined function', function() {
+        expect(typeof isVowel).toBe('function');
+    });
+    it('should return boolean', function () {
+        expect(typeof isVowel()).toBe('boolean');
+    });
+    it('vowel a', function () {
+        expect(isVowel("a")).toBe(true);
+    });
 
-
+});
 
 
 

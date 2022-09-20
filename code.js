@@ -19,5 +19,9 @@ if (toNum % 2 == 0) {return true}
 return false
 }
 
+function isVowel(i) {
+    if (typeof i == 'string' && i == "a" || "e" || "i" || "o" || "u") {return true}
+    return false
+}
 
-
+// if (str === "a" || "e" || "i" || "o" || "u")
