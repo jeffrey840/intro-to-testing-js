@@ -19,9 +19,11 @@ if (toNum % 2 == 0) {return true}
 return false
 }
 
-function isVowel(i) {
-    if (typeof i == 'string' && i == "a" || "e" || "i" || "o" || "u") {return true}
-    return false
+function isVowel(char) {
+    if (char === 'a'|| char === 'e'||char === 'i'||char === 'o'||char === 'u'||char === 'A'||char === 'E'||char === 'I'||char === 'O'||char === 'U'){return true;}
+    return false;
 }
 
-// if (str === "a" || "e" || "i" || "o" || "u")
+function Add(a,b) {
+   return Number(parseInt(a) + parseInt(b));
+}

@@ -70,10 +70,16 @@ describe('isVowel', function() {
     it('should return boolean', function () {
         expect(typeof isVowel()).toBe('boolean');
     });
-    it('vowel a', function () {
-        expect(isVowel("a")).toBe(true);
-    });
+});
 
+//isVowel//
+describe('Add', function() {
+    it('should be a defined function', function() {
+        expect(typeof Add).toBe('function');
+    });
+    it('should return boolean', function () {
+        expect(typeof Add()).toBe('number');
+    });
 });
 
 
